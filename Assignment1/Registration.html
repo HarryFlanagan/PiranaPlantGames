@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang='en'>
+    
+	<head>
+    <title>Piranha Plant Games/Registrtion</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Club Registration'>
+        
+         <link rel="StyleSheet" type="text/css" href="css/games.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="icon" href="img/Pirana_Plant_Logo.png">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      @media (min-width: 576px)
+        {
+        body
+            {
+                background-color: #E7DFDD;
+
+            }
+        }
+           @media (min-width: 768px)
+        {
+        body
+            {
+                background-color: #E7DFDD;
+
+            }
+        }
+           @media (min-width: 992px)
+        {
+        body
+            {
+                background-color: #E7DFDD;
+
+            }
+        }
+           @media (min-width: 1200px)
+        {
+        body
+            {
+                background-color:#E7DFDD;
+
+            }
+         
+        }
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+        </style>
+<!-- header nav -->
+  <header>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0E0B16;">
+  <a class="navbar-brand" href="#">
+    <img src="img/Pirana_Plant_Logo.png" width="40" height="40" class="d-inline-block align-top" alt="Logo">
+  Piranha Plant Games
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Main_Menu.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About_Us.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+      </li>
+    </ul> 
+ <ul class="nav navbar-nav ml-auto">
+ <div class="btn-group">
+    <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="userdetails.html">User Details</a>
+
+    </div>
+    </div>
+  
+      
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="cart.html">
+        <button type="button" class="btn btn-secondary ml-2">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div>
+         </ul>
+    </div>
+</nav> 
+  </header> 
+    <body>
+    <div class="container">
+        <div class="row">   
+    <div class="col" style="background-color:#A239ca; color: aliceblue; border: solid #0E0B16 2px;  margin: 2px">
+   <h2>Registration Form</h2>
+            </div>
+  </div>
+    <div class="form-group">
+    <br><br>
+    <div class="col=sm col-md-6"> 
+    <form name="GameReg" action="" method="get">
+    <legend>Personal Infomation</legend>
+           <fieldset>
+    <label for="FName">First Name</label>
+   <input type="text" id="FName" name="FirstName" title="FirstName can be 15 characters max" placeholder="First Name can be 15 characters max" class="form-control" pattern="[a-zA-Z]{0,15}" placeholder="First name" required><br>
+   <label for="LName">Last Name</label>
+      <input type="text" name="LastName" class="form-control">  
+        <br>
+        <label for="bday"> D.O.B </label> 
+        <input type="date" name="bday" class="form-control"> 
+  </fieldset>
+        <br><br>
+<legend>Payment</legend>
+  <fieldset>
+      <label for="CardName">Name on Card</label>
+   <input type="text" id="CardName" name="CardName" class="form-control" pattern="[a-zA-Z]{0,15}" required><br>
+   <label for="CardNum">Card Number</label>
+   <input type="text" id="CardNum" name="CVVNum" class="form-control" pattern="[0-9]{16}" title="Card number must be 16 numbers" required><br>
+ <label for="CVVNum">CVV</label>
+   <input type="text" id="CVVNum" name="CVVNum" class="form-control" pattern="[0-9]{3}" title="CCV is only 3 numbers" placeholder="The 3 numbers on the back of your card" required><br>
+        <br>
+        <label for="ExpireDate">Expire Date</label> 
+        <input type="date" name="ExpireDate" class="form-control" required>
+        </fieldset>
+        <br><br>
+        <input type="checkbox" name="TnC" value="TnC" required> I agree to the Terms and Conditions
+        <br><br>
+         <p><button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseTerms" aria-expanded="false" aria-controls="collapseTerms">
+    Terms &amp; Conditons
+  </button>
+<div class="collapse" id="collapseTerms">
+  <div class="card card-body">
+Those items for shipment to countries outside of the U.S. may be subject to taxes, customs duties and fees levied by the destination country ("Import Fees"). The recipient of the shipment is the importer of record in the destination country and is responsible for all Import Fees.
+
+With respect to each item for which Import Fees have been calculated, you authorize Amazon Export or Merchant (as applicable) to designate a carrier ("Designated Carrier") to act as your agent with the relevant customs and tax authorities in the destination country, to clear your merchandise, process and remit your actual Import Fees for such item.
+
+"Import Fees Deposit" represents an estimate of the Import Fees that will be levied on the items in your order for shipment to countries outside of the U.S. By placing your order, you agree to allow Amazon Export and/or Merchant (as applicable) to collect the Import Fees Deposit for the applicable items in your order. This deposit will be used, on your behalf, to reimburse the Designated Carriers for the import fees that they have paid on your behalf to the appropriate authorities of the destination country.
+
+You further agree that the Designated Carriers may disclose to Amazon Export or Merchant (as applicable) the amount of actual Import Fees levied on the item you have purchased from Amazon Export and/or Merchant ("Actual Import Fees"). In the event that the Import Fees Deposit exceeds the Actual Import Fees, Amazon Export or Merchant (as applicable) will refund the difference to you.
+
+In the case of gifts or other purchases made on behalf of another recipient, you also agree to grant the foregoing authorizations on behalf of the recipient designated in your order.
+
+To obtain details regarding the Actual Import Fees, or to obtain documentation or receipts in connection with customs clearance, you may contact the Designated Carrier specified in your shipment confirmation.
+
+These terms and conditions are in addition to the standard Conditions of Use of the Amazon website. Pursuant to those terms, title and risk of loss for the items transfer to the recipient upon delivery to the common carrier in the United States.
+
+Please note that Merchants participating in the International Direct program may have policies that differ from Amazon Export's terms and conditions. For items you have purchased from a Merchant, please see the applicable Merchant's policies for any other terms and conditions that may apply to your purchase of such items.
+
+Limitations
+
+For products shipped internationally, please note that any manufacturer warranty may not be valid; manufacturer service options may not be available; product manuals, instructions and safety warnings may not be in destination country languages; the products (and accompanying materials) may not be designed in accordance with destination country standards, specifications, and labeling requirements; and the products may not conform to destination country voltage and other electrical standards (requiring use of an adapter or converter if appropriate). You are responsible for assuring that the product can be lawfully imported to the destination country. When ordering from Amazon.com, the recipient is the importer of record and must comply with all laws and regulations of the destination country.
+
+Privacy
+
+Your privacy is important to us, and we know that you care about how information about your order is used and shared. We would like our international customers and customers shipping products internationally to be aware that cross-border shipments are subject to opening and inspection by customs and/or postal authorities.
+
+Also, we may provide certain order, shipment, and product information, such as titles, to our international carriers, and such information may be communicated by the carriers to customs and/or postal authorities in order to facilitate customs clearance and comply with local laws.
+
+If the order is a gift, the package is marked "Gift," but the cost of the item is still stated on the customs form.
+
+Customs authorities require the value of the gift item to be stated directly on the package.
+    </div>
+    </div>
+        <input type="submit" name="submitBtn" value="Submit" class="btn btn-primary">
+        <br><br>
+         <input type="checkbox" name="phone" value="phone"> I wish to recieve texts regarding Upcoming deals<br>
+         <input type="checkbox" name="email" value="email"> I wish to recieve email regarding upcoming deals<br>
+        </form>
+        </div>
+        </div>
+        </div>
+        <footer>
+      <img src="img/Pirana_Plant_Logo.png" width="40" height="40" class="d-inline-block align-top" alt="Logo" style=" margin: 2%;">
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+       <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a type="button" href="#top" class="btn btn-light" style="float: right; margin: 2%;">Return to Top</a>
+<p id="footerTerms">Subject to status. Terms and conditions apply. Piranha Plant Games Retail Limited acts as a broker and not a lender. Commission may be received. We will introduce to PayPal (Europe) S.à rl et Cie, S.C.A, 22-24 Boulevard Royal, L-2449, Luxembourg. ™ Copyright&copy; 2019</p>
+</footer>
+    <script src="javascript/games.js"></script>
+<script src="javascript/localstore.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>

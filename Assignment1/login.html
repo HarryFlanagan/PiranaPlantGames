@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Piranha Plant Games</title>
+  <!-- Bootstrap core CSS -->
+
+         <link rel="StyleSheet" type="text/css" href="css/games.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="icon" href="img/Pirana_Plant_Logo.png">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+     <style>
+ @media (min-width: 576px)
+        {
+        body
+            {
+                background-color: #E7DFDD;
+
+            }
+        }
+           @media (min-width: 768px)
+        {
+        body
+            {
+                background-color: #E7DFDD;
+
+            }
+        }
+           @media (min-width: 992px)
+        {
+        body
+            {
+                background-color: #E7DFDD;
+
+            }
+        }
+           @media (min-width: 1200px)
+        {
+        body
+            {
+                background-color:#E7DFDD;
+
+            }
+         
+        }
+    </style>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0E0B16;">
+  <a class="navbar-brand" href="#">
+    <img src="img/Pirana_Plant_Logo.png" width="40" height="40" class="d-inline-block align-top" alt="Logo">
+  Piranha Plant Games
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Main_Menu.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="shop.html">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About_Us.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+      </li>
+         </ul>
+          <ul class="nav navbar-nav ml-auto">
+ <div class="btn-group">
+    <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="userdetails.html">User Details</a>
+
+    </div>
+    </div>
+  
+      
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="cart.html">
+        <button type="button" class="btn btn-secondary ml-2">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div>
+         </ul>
+    </div>
+</nav> 
+    </header>
+   <body>
+       <div class="wrapper">
+<div class="container" style="max-width: 95%">
+    <div class="row">
+         <div class="col" style="background-color:#A239ca; color: aliceblue; border: solid #0E0B16 2px;  margin: 2px">
+    <h1>Login</h1>
+        </div>
+    </div>
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+            <div class="alert alert-danger d-none" role="alert" id="loginerror">The username or password you entered is incorrect. <a href="">Forgot your password?</a></div>    
+            <form name="login" action="" method="get">
+                <div class="form-group">
+                    <label for="getEmail">Email address</label>
+                    <input type="email" class="form-control" id="getEmail" name="email" value="flan97@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="getPassword1">Password</label> 
+                    <input type="password" class="form-control" id="getPassword1" name="password" value="password1" required>
+                </div>    
+                <input type='submit' class="btn btn-primary" value="Login">
+            </form>
+                <div class="row">    
+        <div class="col-sm col-md-4"> 
+            <p> <a href="Registration.html">Need to Register?</a></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+       </div>
+<div class="push"></div>
+       </div>
+    
+<footer>
+      <img src="img/Pirana_Plant_Logo.png" width="40" height="40" class="d-inline-block align-top" alt="Logo" style=" margin: 2%;">
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+       <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a type="button" href="#top" class="btn btn-light" style="float: right; margin: 2%;">Return to Top</a>
+<p id="footerTerms">Subject to status. Terms and conditions apply. Piranha Plant Games Retail Limited acts as a broker and not a lender. Commission may be received. We will introduce to PayPal (Europe) S.à rl et Cie, S.C.A, 22-24 Boulevard Royal, L-2449, Luxembourg. ™ Copyright&copy; 2019</p>
+</footer>
+    
+    <script src="javascript/jquery-min.js"></script>
+    <script src="javascript/localstore.js"></script>   
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+
+
+
+

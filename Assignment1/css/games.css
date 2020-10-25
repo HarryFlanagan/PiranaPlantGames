@@ -1,0 +1,195 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+ margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+h2
+{
+    text-align: center;
+
+}
+h5
+{
+    text-align: center;
+}
+
+
+#logo
+{
+    width: 68px;
+    height: 68px;
+    float: left
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+footer
+{
+    margin-top: 2px;
+    position:absolute;
+    width: 100%;
+}
+.fa 
+{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+    margin-top: 2%;
+ border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+footer
+{
+
+
+    font-size: 70%;
+    color: aliceblue;
+    background-color: #0E0B16;
+}
+.col
+{
+  float: none;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.homeGames
+{    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 200px;
+ border-radius: 5%;
+  
+    
+}
+.homePrice
+{
+background-color:#F7CE3E ;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  max-height: 200px;
+
+}
+.icons
+{
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+ border-radius: 50%;
+}
+.avatar
+{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 2%;
+    max-width: 200px;
+  max-height: 200px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+<!--CountdownTimer-->
+
+.bgimg {
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+.countdownImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 2%;
+  border-radius: 10%;
+    
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  top: 0;
+  left: 16px;
+background-color:#A239ca;
+color: aliceblue;
+}
+
+
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
